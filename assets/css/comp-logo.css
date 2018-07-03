@@ -1,0 +1,85 @@
+/*------------------------------------------------------------
+header
+------------------------------------------------------------*/
+/*header
+------------------------------------------------------------*/
+.header {
+  background-image: url("/assets/images/102.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  /*-logo
+	------------------------------------------------------------*/
+  /*-banner
+	------------------------------------------------------------*/ }
+  .header-top {
+    background-color: #000;
+    opacity: 0.8;
+    padding: 10px 0;
+    height: 80px; }
+    @media (max-width: 767px) {
+      .header-top {
+        padding: 10px;
+        height: auto; } }
+  .header-logo {
+    overflow: hidden;
+    padding-top: 14px; }
+    @media (max-width: 767px) {
+      .header-logo {
+        padding-top: 0; } }
+    .header-logo__thumb {
+      float: left; }
+      @media (max-width: 767px) {
+        .header-logo__thumb {
+          margin-bottom: 5px; } }
+      @media (max-width: 767px) {
+        .header-logo__thumb img {
+          width: 80%;
+          height: auto; } }
+    .header-logo__text {
+      float: left;
+      margin-left: 10px; }
+      @media (max-width: 767px) {
+        .header-logo__text {
+          width: 100%;
+          margin-left: 0; } }
+      .header-logo__text h1 {
+        font-size: 1.1rem;
+        color: #fff;
+        margin-top: 0;
+        margin-bottom: 0;
+        line-height: 15px; }
+        @media (max-width: 767px) {
+          .header-logo__text h1 {
+            font-size: 0.8rem;
+            line-height: 12px; } }
+  .header-banner {
+    padding: 70px 0;
+    position: relative; }
+    @media (max-width: 767px) {
+      .header-banner {
+        padding: 20px 10px; } }
+    .header-banner__title {
+      font-size: 5rem;
+      font-weight: bold;
+      margin-top: 0;
+      margin-bottom: 0;
+      text-shadow: 2px -2px 7px #fff; }
+      @media (max-width: 767px) {
+        .header-banner__title {
+          font-size: 2rem; } }
+    .header-banner__desc {
+      font-size: 3.1rem;
+      font-weight: bold;
+      margin-bottom: 17px;
+      margin-top: 3px;
+      text-shadow: 2px -2px 7px #fff; }
+      @media (max-width: 767px) {
+        .header-banner__desc {
+          font-size: 1.4rem;
+          margin-bottom: 10px; } }
+    @media (max-width: 767px) {
+      .header-banner .comp-thumb {
+        margin-bottom: 10px; }
+        .header-banner .comp-thumb img {
+          width: 60%;
+          height: auto; } }

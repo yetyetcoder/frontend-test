@@ -1,0 +1,49 @@
+/*------------------------------------------------------------
+custom-bootstrap
+------------------------------------------------------------*/
+/*container
+------------------------------------------------------------*/
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: justify; }
+  @media (max-width: 767px) {
+    .container {
+      width: auto; } }
+
+/*header
+------------------------------------------------------------*/
+.header-top .container .row .col-sm-4, .header-top .container .row .col-sm-8 {
+  padding-left: 0;
+  padding-right: 0; }
+
+@media (max-width: 767px) {
+  .header-top .container .row .col-sm-4 {
+    width: 45%;
+    float: left; } }
+
+@media (max-width: 767px) {
+  .header-top .container .row .col-sm-8 {
+    width: 55%;
+    float: inherit;
+    overflow: hidden; } }
+
+/*main
+------------------------------------------------------------*/
+.main-part1__col .col-sm-4, .main-part1__col .col-sm-8 {
+  padding-left: 0;
+  padding-right: 0; }
+
+.main-part1__col .col-sm-4 {
+  width: 380px;
+  margin-left: 20px; }
+  @media (max-width: 767px) {
+    .main-part1__col .col-sm-4 {
+      width: auto;
+      margin-left: 0; } }
+
+.main-part1__col .col-sm-8 {
+  width: 560px; }
+  @media (max-width: 767px) {
+    .main-part1__col .col-sm-8 {
+      width: auto; } }
